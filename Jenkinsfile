@@ -19,7 +19,7 @@ pipeline {
             steps {
                 script {
                     dir('EKS'){
-                        sh 'Terraform init'
+                        sh 'terraform init'
                     }
 
                 }
